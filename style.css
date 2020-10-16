@@ -1,0 +1,176 @@
+body {
+    background-color: white;
+}
+h1 {
+    font: italic bold 40px Georgia, serif;
+    cursor: pointer;
+    text-decoration: overline;
+}
+div.stylebox {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    left: 570px;
+    background-position: center;
+    background-width: 10px solid black;
+    border: none;
+    border-radius: 40px;
+    height: 400px;
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    background-color: white;
+    opacity: 110%;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.stylebox:hover {
+    border: none;
+    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.22), 0 4px 25px 0 rgba(0, 0, 0, 0.19);
+}
+label.usr {
+    padding-left: 10px;
+}
+input.lgnusr {
+    border-radius: 20px;
+    padding: 10px 25px;
+    transition-duration: 0.4s;
+}
+input.lgnusr:hover {
+    border: None;
+    text-align: -moz-left;
+    color:black;
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input.lgnpwrd {
+    border-radius: 20px;
+    padding: 10px 25px;
+    transition-duration: 0.4s;
+}
+input.lgnpwrd:hover {
+    border: None;
+    color:black;
+    text-align: -moz-left;
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input.btn {
+    background-color: black;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    margin: 4px 2px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+input.btn:hover {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border: none;
+    border-radius: 40px;
+    background-color: #24A0ED;
+    color: white;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.29), 0 8px 28px 0 rgba(0, 0, 0, 0.19);
+}
+a.fb {
+    border: none;
+    border-radius: 40px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3B5998;
+    color: white;
+    margin: 10px 8px;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a.fb:hover {
+    background-color: #3B5998;
+    border: none;
+    color: white;
+    font-size: 12px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.6;
+}
+a.google {
+    border: none;
+    border-radius: 40px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #dd4b39;
+    margin: 10px 8px;
+    color: white;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a.google:hover {
+    background-color: #dd4b39;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.6;
+}
+a.twitter {
+    border: none;
+    border-radius: 40px;
+    padding-right: 19px;
+    padding-left: 19px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-size: 16px;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #00acee;
+    margin: 10px 8px;
+    color: white;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a.twitter:hover {
+    background-color: #00acee;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.6;
+}
+div.nwusrsgnup {
+    text-decoration: none;
+    color: DodgerBlue;
+    font-family: "Sofia", cursive;
+    font-size: 20px;
+}
