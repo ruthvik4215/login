@@ -4,6 +4,7 @@ body {
 
 a {
     outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 h1 {
