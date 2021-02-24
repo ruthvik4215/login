@@ -1,6 +1,11 @@
 body {
     background-color: white;
 }
+
+a {
+    outline: none;
+}
+
 h1 {
     font: italic bold 40px Georgia, serif;
     cursor: pointer;
