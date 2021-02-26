@@ -37,7 +37,7 @@ div.stylebox {
 }
 div.stylebox:hover {
     border: none;
-    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.22), 0 4px 25px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.22), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
 }
 label.usr {
     padding-left: 10px;
